@@ -28,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Douglas\\CaptchaBundle\\": "src"
+            "Douglas\\CaptchaBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Douglas\\CaptchaBundle\\Tests\\": "tests"
+            "Douglas\\CaptchaBundle\\Tests\\": "tests/"
         }
     },
     "replace": {
