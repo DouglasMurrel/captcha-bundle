@@ -12,6 +12,9 @@
             <tag name="kernel.event_listener" event="Douglas\CaptchaBundle\Event\CaptchaSuccessEvent" method="onCaptchaSuccess" />
             <argument type="service" id="logger" />
         </service>
+        <service id="Douglas\CaptchaBundle\Service\CaptchaService" class="Douglas\CaptchaBundle\Service\CaptchaService">
+            <argument type="service" id="Symfony\Component\EventDispatcher\EventDispatcherInterface" />
+        </service>
     </services>
 
 </container>
