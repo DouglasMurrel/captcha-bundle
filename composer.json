@@ -33,7 +33,6 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Douglas\\CaptchaBundle\\Tests\\": "tests/"
         }
     },
     "replace": {
